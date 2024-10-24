@@ -1,0 +1,215 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Blend &mdash; Face Search</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Free HTML5 Website Template by FreeHTML5.co" />
+	<meta name="keywords" content="free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
+	<meta name="author" content="FreeHTML5.co" />
+
+  	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Owl Carousel -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+	<body>
+
+	<div id="fh5co-page">
+		<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
+		<aside id="fh5co-aside" role="complementary" class="border">
+			<h1 id="fh5co-logo"><a href="index.html"><img src="img/logo.png" alt="website logo"></a></h1>
+			<nav id="fh5co-main-menu" role="navigation">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="portfolio.html">Search</a></li>
+					<li class="fh5co-active"><a href="about.html">About</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+
+			<div class="fh5co-footer">
+				<p>follow us</p>
+				<ul>
+					<li><a href="#"><i class="icon-facebook"></i></a></li>
+					<li><a href="#"><i class="icon-twitter"></i></a></li>
+					<li><a href="#"><i class="icon-instagram"></i></a></li>
+					<li><a href="#"><i class="icon-linkedin"></i></a></li>
+				</ul>
+			</div>
+		</aside>
+
+		<div id="fh5co-main">
+			<div class="fh5co-narrow-content">
+				<div class="row">
+					<div class="col-md-5">
+						<h2 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">I'm Erfan Afshar <span>Student at Amirkabir Univeristy</span></h2>
+						<p class="fh5co-lead animate-box" data-animate-effect="fadeInLeft">This website's goal is to provide excellent experience for all users based on their level of knowledge.</p>
+						<p class="animate-box" data-animate-effect="fadeInLeft">You can easily click on Search button in left menu of website and start face search instantaneously. If you'd like to have a quick search without confusion, just select standard and upload your image and push go button. If you're curious about differences between CNNs performance, select multiple and see results of different CNNs altogether and compare them. If you'd like to have desired results based on your own weights for each CNN, you should select weighted option.</p>
+						<!--
+						<p class="animate-box" data-animate-effect="fadeInLeft">There are multiple steps from where you select your face image until results shown on the page which are as follows: </p>
+						<p class="animate-box" data-animate-effect="fadeInLeft">1.MTCNN model applied to the uploaded image in order to find a face in your image.</p>
+						<p class="animate-box" data-animate-effect="fadeInLeft">2.Pixels of founded face are inputs of each model, result of each model is a specific embedding vector.</p>
+						<p class="animate-box" data-animate-effect="fadeInLeft">3.Embedding vector of the dataset images are available on the server, so then Gensim library used to find embedding vectors in dataset which are closer to upload image embedding.</p>
+						<p class="animate-box" data-animate-effect="fadeInLeft">4.Finally, image faces with closest embedding, returned from server to your browser, and showed to you (accompanied by extra info if required) in a Comprehensible manner.</p>
+						-->
+					</div>
+					<div class="col-md-6 col-md-push-1 animate-box" data-animate-effect="fadeInLeft">
+						<img src="img/my_image.jpg" alt="my image" class="img-responsive">
+					</div>
+				</div>
+			</div>
+
+			<div class="fh5co-narrow-content  animate-box fh5co-border-bottom" data-animate-effect="fadeInLeft">
+				<h2 class="fh5co-heading" >Convolutional Neural Networks</h2>
+				<div class="row">
+					<div class="col-md-4 fh5co-staff">
+						<img src="img/e1.jpg" alt="an image" class="img-responsive fix-size-img-2">
+						<h3>FaceNet</h3>
+						<h4>Google, 2015</h4>
+						<p>FaceNet takes an image of the person’s face as input and outputs a vector of 128 numbers which represent the most important features of a face. In machine learning, this vector is called embedding. Why embedding? Because all the important information from an image is embedded into this vector. Basically, FaceNet takes a person’s face and compresses it into a vector of 128 numbers. Ideally, embeddings of similar faces are also similar.</p>
+					</div>
+					<div class="col-md-4 fh5co-staff">
+						<img src="img/e2.png" alt="an image" class="img-responsive fix-size-img-2">
+						<h3>ArcFace</h3>
+						<h4>Imperial College London, 2019</h4>
+						<p>ArcFace, or Additive Angular Margin Loss, is a loss function used in face recognition tasks. The softmax is traditionally used in these tasks. However, the softmax loss function does not explicitly optimise the feature embedding to enforce higher similarity for intraclass samples and diversity for inter-class samples, which results in a performance gap for deep face recognition under large intra-class appearance variations.</p>
+					</div>
+					<div class="col-md-4 fh5co-staff">
+						<img src="img/e3.png" alt="an image" class="img-responsive fix-size-img-2">
+						<h3>VggFace</h3>
+						<h4>University of Oxford, 2015</h4>
+						<p>VGG is a classical convolutional neural network architecture. It was based on an analysis of how to increase the depth of such networks. The network utilises small 3 x 3 filters. Otherwise the network is characterized by its simplicity: the only other components being pooling layers and a fully connected layer.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="fh5co-narrow-content fh5co-border-bottom">
+				<h2 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">This Is What <span>I Love To Do</span></h2>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="fh5co-feature animate-box" data-animate-effect="fadeInLeft">
+							<div class="fh5co-icon">
+								<i class="icon-telescope"></i>
+							</div>
+							<div class="fh5co-text">
+								<h3>Explore</h3>
+								<p>Investigate different aspects of machine learning especially visual parts such as face recognition and image classification.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="fh5co-feature animate-box" data-animate-effect="fadeInLeft">
+							<div class="fh5co-icon">
+								<i class="icon-code"></i>
+							</div>
+							<div class="fh5co-text">
+								<h3>Expand</h3>
+								<p>Use famous machine learning libraries such as tensorflow and pytorch to improve my programming skills.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6">
+						<div class="fh5co-feature animate-box" data-animate-effect="fadeInLeft">
+							<div class="fh5co-icon">
+								<i class="icon-graduation-cap"></i>
+							</div>
+							<div class="fh5co-text">
+								<h3>Study</h3>
+								<p>Read machine learning latest papers to be aware of newest algorithms, and try to understand thier approach.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="fh5co-feature animate-box" data-animate-effect="fadeInLeft">
+							<div class="fh5co-icon">
+								<i class="icon-balance-scale"></i>
+							</div>
+							<div class="fh5co-text">
+								<h3>Evaluate</h3>
+								<p>Evaluate my capability and knowledge by solving machine learning problems and participation in ML challenges in kaggle.</p>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="fh5co-narrow-content">
+				<div class="row">
+					<div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
+						<h1 class="fh5co-heading-colored">Get in touch</h1>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+						<p class="fh5co-lead">If you have any questions, or comments, please feel free to ask.</p>
+						<p><a href="contact.html" class="btn btn-primary btn-outline">Learn More</a></p>
+					</div>
+					
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- Stellar -->
+	<script src="js/jquery.stellar.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Counters -->
+	<script src="js/jquery.countTo.js"></script>
+	
+	
+	<!-- MAIN JS -->
+	<script src="js/main.js"></script>
+
+	</body>
+</html>
+
